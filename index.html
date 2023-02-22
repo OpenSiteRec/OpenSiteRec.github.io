@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet">
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+
+</head>
+<body>
+	<div class="topBg"></div>
+	<!-- banner -->
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="agileits-logo">
+				<h1><a href="javascript:">OpenSiteRec  <span>Page</span></a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+							<nav>
+								<ul class="nav navbar-nav">
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="#about" class="scroll">Schema</a></li>
+									<li><a href="#statistics" class="scroll">Statistics</a></li>
+									<li><a href="#download" class="scroll">Download</a></li>
+									<li><a href="#benchmark" class="scroll">Benchmark</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="banner_text">
+						<p>An Open Dataset for Site Recommendation</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about">
+		<div class="container">
+			<div class="welcome">
+				<div class="agileits-title">
+					<h2>Schema</h2>
+					<p>
+						OpenSiteRec is an open dataset for Site Recommendation.<br/>
+						It consists data of four international metropolises: Chicago, New York City, Singapore and Tokyo.<br/>
+						There are five types of entities: Brand, Category, POI, Business Area, Region.<br/>
+						The extensive relations provide sufficient commercial and geographical information.<br/>
+					</p>
+				</div>
+			</div>
+			<div class="about-w3lsrow">
+				<div class="w3about-img">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //about -->
+	<!-- portfolio -->
+	<div class="portfolio" id="statistics">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Statistics & Usage</h3>
+			</div>
+			<ul class="navBox">
+				<li class="active">Overview</li>
+				<li>Demo</li>
+				<li>Brand Distribution</li>
+				<li>Region Distribution</li>
+				<li>Business Area</li>
+			</ul>
+			<div class="container" style="width: 100%">
+				<div class="workList selected">
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p11">
+						<div class="workLinkPic" style="background-image: url(images/Chicago.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Chicago</p>
+							<p class="workLinkText2">Population: 2.7 million | Area: 590 km<sup>2</sup></p>
+							<p class="workLinkText3">Chicago is the most populous city in the U.S. state of Illinois
+								and the third most populous in the United States.</p>
+						</div>
+					</span>
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p12">
+						<div class="workLinkPic" style="background-image: url(images/NYC.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">New York City</p>
+							<p class="workLinkText2">Population: 8.8 million | Area: 778 km<sup>2</sup></p>
+							<p class="workLinkText3">New York City or NYC, is the most populous city in the United States.</p>
+						</div>
+					</span>
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p13">
+						<div class="workLinkPic" style="background-image: url(images/Singapore.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Singapore</p>
+							<p class="workLinkText2">Population: 5.6 million | Area: 733 km<sup>2</sup></p>
+							<p class="workLinkText3">Singapore is a sovereign island country and city-state in maritime Southeast Asia.</p>
+						</div>
+					</span>
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p14">
+						<div class="workLinkPic" style="background-image: url(images/Tokyo.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Tokyo</p>
+							<p class="workLinkText2">Population: 9.7 million | Area: 620 km<sup>2</sup></p>
+							<p class="workLinkText3">Tokyo, officially the Tokyo Metropolis,
+								is the capital and most populous city of Japan.</p>
+						</div>
+					</span>
+				</div>
+				<div class="workList">
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p21">
+						<div class="workLinkPic" style="background-image: url(images/Singapore.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Singapore</p>
+							<p class="workLinkText2">Population: 5.6 million | Area: 733 km<sup>2</sup></p>
+							<p class="workLinkText3">Singapore is a sovereign island country and city-state in maritime Southeast Asia.</p>
+						</div>
+					</span>
+				</div>
+				<div class="workList">
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p31">
+						<div class="workLinkPic" style="background-image: url(images/1.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Four Metropolises</p>
+							<p class="workLinkText2">Chicago, New York City, Singapore and Tokyo</p>
+							<p class="workLinkText3">All the same trend, so only one figure to show.</p>
+						</div>
+					</span>
+				</div>
+				<div class="workList">
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p41">
+						<div class="workLinkPic" style="background-image: url(images/Chicago.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Chicago</p>
+							<p class="workLinkText2">Population: 2.7 million | Area: 590 km<sup>2</sup></p>
+							<p class="workLinkText3">Chicago is the most populous city in the U.S. state of Illinois
+								and the third most populous in the United States.</p>
+						</div>
+					</span>
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p42">
+						<div class="workLinkPic" style="background-image: url(images/NYC.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">New York City</p>
+							<p class="workLinkText2">Population: 8.8 million | Area: 778 km<sup>2</sup></p>
+							<p class="workLinkText3">New York City or NYC, is the most populous city in the United States.</p>
+						</div>
+					</span>
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p43">
+						<div class="workLinkPic" style="background-image: url(images/Singapore.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Singapore</p>
+							<p class="workLinkText2">Population: 5.6 million | Area: 733 km<sup>2</sup></p>
+							<p class="workLinkText3">Singapore is a sovereign island country and city-state in maritime Southeast Asia.</p>
+						</div>
+					</span>
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p44">
+						<div class="workLinkPic" style="background-image: url(images/Tokyo.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Tokyo</p>
+							<p class="workLinkText2">Population: 9.7 million | Area: 620 km<sup>2</sup></p>
+							<p class="workLinkText3">Tokyo, officially the Tokyo Metropolis,
+								is the capital and most populous city of Japan.</p>
+						</div>
+					</span>
+				</div>
+				<div class="workList">
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p51">
+						<div class="workLinkPic" style="background-image: url(images/Chicago.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Chicago</p>
+							<p class="workLinkText2">Population: 2.7 million | Area: 590 km<sup>2</sup></p>
+							<p class="workLinkText3">Chicago is the most populous city in the U.S. state of Illinois
+								and the third most populous in the United States.</p>
+						</div>
+					</span>
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p52">
+						<div class="workLinkPic" style="background-image: url(images/NYC.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">New York City</p>
+							<p class="workLinkText2">Population: 8.8 million | Area: 778 km<sup>2</sup></p>
+							<p class="workLinkText3">New York City or NYC, is the most populous city in the United States.</p>
+						</div>
+					</span>
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p53">
+						<div class="workLinkPic" style="background-image: url(images/Singapore.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Singapore</p>
+							<p class="workLinkText2">Population: 5.6 million | Area: 733 km<sup>2</sup></p>
+							<p class="workLinkText3">Singapore is a sovereign island country and city-state in maritime Southeast Asia.</p>
+						</div>
+					</span>
+					<span class="workLink">
+						<a href="#" data-toggle="modal" data-target="#p54">
+						<div class="workLinkPic" style="background-image: url(images/Tokyo.jpg)"></div>
+						</a>
+						<div class="workLinkTextBox">
+							<p class="workLinkText1">Tokyo</p>
+							<p class="workLinkText2">Population: 9.7 million | Area: 620 km<sup>2</sup></p>
+							<p class="workLinkText3">Tokyo, officially the Tokyo Metropolis,
+								is the capital and most populous city of Japan.</p>
+						</div>
+					</span>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$(function() {
+			$(".navBox li").click(function() {
+				$(this).addClass("active").siblings().removeClass("active");
+				$(".workList").eq($(this).index()).show().siblings().hide();
+			})
+		})
+	</script>
+	<!-- //portfolio -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="p11" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Data <span>Statistics</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/OVChicago.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="p12" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Data <span>Statistics</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/OVNYC.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="p13" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Data <span>Statistics</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/OVSingapore.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="p14" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Data <span>Statistics</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/OVTokyo.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal about-modal fade" id="p21" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Data <span>Demo</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/demo.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal about-modal fade" id="p31" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Brand <span>Distribution</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/LT.png" alt="" />
+						<p>As shown in the figure, the data of all four metropolises
+							suffer from severe long-tail problem on the brands.</p>
+						<p>Generally speaking, the top 10% brands occupy over 50% of POIs.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal about-modal fade" id="p41" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Region <span>Distribution</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/HotChicago.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="p42" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Region <span>Distribution</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/HotNYC.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="p43" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Region <span>Distribution</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/HotSingapore.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="p44" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Region <span>Distribution</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/HotTokyo.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal about-modal fade" id="p51" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Business Area <span>Planning</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/BAChicago.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="p52" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Business Area <span>Planning</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/BANYC.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="p53" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Business Area <span>Planning</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/BASingapore.png" alt="" />
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal about-modal fade" id="p54" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Business Area <span>Planning</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/BATokyo.png" alt="" />
+						<p>Since Tokyo government has not released the official planning of business area,
+							we can not visualize the business areas.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- blog -->
+	<div class="blog" id="download" >
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Download</h3>
+			</div>
+			<div class="wthree-blog-grids">
+				<div class="col-md-12 w3-agileits-blog-grid" style="margin-bottom: 50px;">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>Chicago</h4>
+					</div>
+					<div class="col-sm-8 col-xs-6 blog-right">
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Chicago/Chicago_KG_plus.pkl')">
+							Chicago Graph Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Chicago/Chicago_Region.geojson')">
+							Chicago Region Geographical Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Chicago/Chicago_brands.pkl')">
+							Chicago Brand Relation Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Chicago/Chicago_regions.pkl')">
+							Chicago Region Relation Data</a><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-12 w3-agileits-blog-grid" style="margin-bottom: 50px;">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>New York City</h4>
+					</div>
+					<div class="col-sm-8 col-xs-6 blog-right">
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/NYC/NYC_KG_plus.pkl')">
+							New York City Graph Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/NYC/NYC_Region.geojson')">
+							New York City Region Geographical Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/NYC/NYC_brands.pkl')">
+							New York City Brand Relation Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/NYC/NYC_regions.pkl')">
+							New York City Region Relation Data</a><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-12 w3-agileits-blog-grid" style="margin-bottom: 50px;">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>Singapore</h4>
+					</div>
+					<div class="col-sm-8 col-xs-6 blog-right">
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Singapore/Singapore_KG_plus.pkl')">
+							Singapore Graph Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Singapore/Singapore_Region.geojson')">
+							Singapore Region Geographical Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Singapore/Singapore_brands.pkl')">
+							Singapore Brand Relation Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Singapore/Singapore_regions.pkl')">
+							Singapore Region Relation Data</a><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-12 w3-agileits-blog-grid" style="margin-bottom: 50px;">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>Tokyo</h4>
+					</div>
+					<div class="col-sm-8 col-xs-6 blog-right">
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Tokyo/Tokyo_KG_plus.pkl')">
+							Tokyo Graph Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Tokyo/Tokyo_Region.geojson')">
+							Tokyo Region Geographical Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Tokyo/Tokyo_brands.pkl')">
+							Tokyo Brand Relation Data</a><br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/tree/main/Tokyo/Tokyo_regions.pkl')">
+							Tokyo Region Relation Data</a><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-12 w3-agileits-blog-grid" style="margin-bottom: 50px;">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>Data Usage</h4>
+					</div>
+					<div class="col-sm-8 col-xs-6 blog-right">
+						Please find the data usage at Github Repo<br/>
+						<a href="#" onclick="window.open('https://github.com/HestiaSky/OpenSiteRec/')">OpenSiteRec</a><br/>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //blog -->
+	<!-- markets -->
+	<div class="markets" id="benchmark">
+		<div class="container">
+			<div class="welcome">
+				<div class="agileits-title">
+					<h2>Benchmark</h2>
+					<p>
+						Benchmarking experimental results of 16 representative baselines on OpenSiteRec.<br/>
+						For <strong>Machine Learning</strong> methods, we have LR, GBDT, SVR and RankNet.<br/>
+						For <strong>Collaborative Filtering</strong> methods, we have MF-BPR, NeuMF, FISM and NAIS.<br/>
+						For <strong>CTR Prediction</strong> methods, we have DNN, Wide&Deep, DeepFM, xDeepFM.<br/>
+						For <strong>Graph-based</strong> methods, we have GC-MC, GraphRec, NGCF and LightGCN.<br/>
+					<p>Please find the implementation codes at Github Repo <a href="https://github.com/HestisSky/OpenSiteRec/">OpenSiteRec</a>.</p>
+					</p>
+				</div>
+			</div>
+			<div class="about-w3lsrow">
+				<div class="w3about-img2"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //markets -->
+	<!-- team -->
+	<div class="team" id="hobby">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Amazing Team</h3>
+			</div>
+			<div class="agileits-team-grids">
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/THU.jpg" alt="">
+						<div class="team-caption">
+							<h4><a href="http://180.76.145.135/west/">WEST Lab</a></h4>
+							<p>Department of Computer Science and Technology, Tsinghua University</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t2.png" alt="">
+						<div class="team-caption">
+							<h4><a href="https://www.ntu.edu.sg/dmal/">DMAL</a></h4>
+							<p>School of Computer Science and Engineering, Nanyang Technological University</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t3.png" alt="">
+						<div class="team-caption">
+							<h4><a href="https://aml-cityu.github.io/">AML Lab</a></h4>
+							<p>School of Data Science, City University of Hong Kong</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/THU.jpg" alt="">
+						<div class="team-caption">
+							<h4><a href="http://fi.ee.tsinghua.edu.cn/">FIL Lab</a></h4>
+							<p>Department of Electronic Engineering, Tsinghua University</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-6 amet-sed">
+					<div class="footer-title">
+						<h3>Xinhang Li</h3>
+					</div>
+					<p>Department of Compter Science and Technology <br/>
+						Tsinghua Univerisity <br/>
+						+86 156-5257-5233 | <a href="mailto:opensiterec@gmail.com">opensiterec@gmail.com</a><br/>
+					</p>
+				</div>
+				<div class="col-md-6 amet-sed ">
+					<div class="footer-title">
+						<h3>Contact Me</h3>
+					</div>
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="https://www.facebook.com/xinhang.li.9440"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/xinhang-li-50a0401a2/"><i class="fa fa-linkedin"></i></a></li>
+							<li><a href="javascript:alert('848318504')"><i class="fa fa-qq"></i></a></li>
+							<li><a href="https://github.com/HestiaSky"><i class="fa fa-github"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<p class="footer-class">Copyright &copy; 2023. All rights reserved for Xinhang Li.</p>
+		</div>
+	</div>
+	<!-- //copyright -->
+</body>
+</html>
